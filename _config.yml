@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "hun"
+locale                   : "en-US"
 title                    : "Balint Vuchetich"
 title_separator          : "-"
 name                     : &name "Balint Vuchetich"
@@ -81,7 +81,7 @@ author:
   avatar           : "profile.png"
   bio              : "Uni student and machine learning enthusiast"
   location         : "Budapest / Hungary"
-  employer         : "http://english.dmlab.hu/"
+  employer         : "[DmLab](http://english.dmlab.hu/)"
   googlescholar    : 
   email            : 
   uri              : 

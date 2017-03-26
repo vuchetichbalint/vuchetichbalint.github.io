@@ -8,9 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-	
-Intentions 
-======
 I started this site to get hands-on experience with these data-driven technologies, and share data science state-of-the-art articles.
 
 A data-driven personal website
