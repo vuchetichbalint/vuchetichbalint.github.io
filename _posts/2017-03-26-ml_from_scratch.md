@@ -12,4 +12,6 @@ tags:
 
 Bare bones Python implementations of some of the fundamental Machine Learning models and algorithms.
 
-https://github.com/eriklindernoren/ML-From-Scratch
+[Here is the github repo.](https://github.com/eriklindernoren/ML-From-Scratch)
+
+#supercool
