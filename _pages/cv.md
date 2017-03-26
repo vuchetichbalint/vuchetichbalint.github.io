@@ -11,22 +11,21 @@ redirect_from:
 
 Education
 ======
-* B.S. in Github, Github University, 2012
-* M.S. in Jekyll, Github University, 2014
-* Ph.D in Version Control Theory, Github University, 2018 (expected)
+* B.Sc. in Electrical Engineering, Budapest University of Technology and Economics, expected in 2017
+* B.A. in Classical Philology, Eötvös Loránd University, expected in 2018
+* Plans
+  * M.Sc. in Computing Science or Machine Learning
+  * Later Ph.D in similar fields.
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
+* Summer of 2013: Data Analyst intern
+  * Prezi.com
   * Duties included: Tagging issues
-  * Supervisor: Professor Git
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
+* From March 2016: Data Scientist
+  * DmLab
+
 Skills
 ======
 * Skill 1
