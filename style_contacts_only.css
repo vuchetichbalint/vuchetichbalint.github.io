@@ -245,6 +245,27 @@ figure {
 }
 
 
+
+/* unvisited link */
+a:link {
+    color: #EA5022;
+}
+
+/* visited link */
+a:visited {
+    color: #EA5022;
+}
+
+/* mouse over link */
+a:hover {
+    color: #EA5022;
+}
+
+/* selected link */
+a:active {
+    color: #EA5022;
+}
+
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
