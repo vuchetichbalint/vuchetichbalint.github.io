@@ -68,9 +68,6 @@ html, body {
   margin-bottom: 1rem;
 }
 
-.fa-code {
-  color: #e54d26;
-}
 .fa-bold {
   color: #563d7c;
 }
@@ -214,7 +211,7 @@ hr.light-100 {
 figure {
   position: relative;
   width: 100%;
-  height: 60%;
+  height: 30%;
   margin: 0!important;
 }
 .fixed-wrap {
