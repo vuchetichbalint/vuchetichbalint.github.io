@@ -8,6 +8,11 @@ html, body {
 
 }
 
+.about-us-body {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 .navbar {
   padding: .8rem;
 }
