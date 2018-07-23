@@ -267,6 +267,11 @@ figure {
     padding: 1rem;
 }
 
+#classModal {}
+
+.modal-body {
+  overflow-x: auto;
+}
 
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
