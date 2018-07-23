@@ -7,6 +7,10 @@ html, body {
   color: #222;
 }
 
+.lead{
+  text-align: justify;
+  text-justify: inter-word;
+}
 
 .navbar-default{
   background:#fff;
@@ -91,18 +95,24 @@ html, body {
 .fa-info {
   color: #e54d26;
 }
-.fa-users {
+.fa-home {
+  color: #e54d26;
+}
+.fa-user-secret {
+  color: #563d7c;
+}
+.fa-book {
   color: #563d7c;
 }
 .fa-facebook {
   color: #3b5998;
 }
 
-.fa-facebook:hover, .fa-users:hover, .fa-info:hover {
+.fa-facebook:hover, .fa-users:hover, .fa-info:hover, .fa-user-secret:hover, .fa-book:hover, .fa-home:hover{
   color: #d5d5d5;
 }
 
-.fa-info, .fa-users, .fa-facebook {
+.fa-home, .fa-book, .fa-info, .fa-users, .fa-facebook, .fa-user-secret {
   font-size: 4em;
   margin: 1rem;
 }
