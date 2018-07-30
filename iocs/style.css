@@ -268,10 +268,12 @@ figure {
 }
 
 #classModal {}
-
+/*
 .modal-body {
   overflow-x: auto;
 }
+*/
+
 
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
@@ -295,4 +297,25 @@ a.anchor {
 	position: relative;
 	top: -4rem;
 	visibility: hidden;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.scroll-wrapper {
+  -webkit-overflow-scrolling: touch;
+    overflow-y: scroll;
+
+  /* important:  dimensions or positioning here! */
+}
+
+.scroll-wrapper iframe {
+  /* nada! */
+}
+
+@media only screen and (max-width: 480px) {
+  .touch .modal .modal-body {
+    max-height: none; 
+  }
 }
