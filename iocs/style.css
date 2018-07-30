@@ -268,11 +268,11 @@ figure {
 }
 
 #classModal {}
-/*
+
 .modal-body {
   overflow-x: auto;
 }
-*/
+
 
 
 /*
@@ -318,4 +318,4 @@ a.anchor {
   .touch .modal .modal-body {
     max-height: none; 
   }
-}
+
