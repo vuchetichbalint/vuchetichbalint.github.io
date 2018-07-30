@@ -47,7 +47,7 @@ html, body {
 }
 .carousel-caption {
   position: absolute;
-   top: 40%;
+   top: 50%;
    transform: translateY(-50%);
 }
 .carousel-caption h1 {
@@ -217,13 +217,13 @@ hr.light-100 {
     padding: .7rem;
   }
 }
-/*
+
 .sticky-top {
   position: fixed;
   top: 0;
   width: 100%
 }
-*/
+
 
 /*---Firefox Bug Fix --*/
 .carousel-item {
@@ -290,8 +290,9 @@ Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
 
-
-
-
-
-
+a.anchor {
+	display: block;
+	position: relative;
+	top: -4rem;
+	visibility: hidden;
+}

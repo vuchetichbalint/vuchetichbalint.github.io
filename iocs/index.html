@@ -12,6 +12,10 @@
 	<script src="https://use.fontawesome.com/releases/v5.0.9/js/all.js"></script>
 	<link href="style.css" rel="stylesheet">
 	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+	<meta property="og:image" content="http://golya.iocs.hu/img/castle/landscape.jpg" />
+	<meta property="og:description" content="Tata, 2018. augusztus 23-28." />
+	<meta property="og:url"content="http://golya.iocs.hu" />
+	<meta property="og:title" content="Semmelweis Egyetem Gólyatábor 2018" />
 
 		<!-- Google Analytics -->
 <!--
@@ -32,25 +36,25 @@ ga('send', 'pageview');
 
 <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top"> 
 <div class="container-fluid">
-	<a class="navbar-brand" href="#"> SE Gólyatábor 2018</a>
+	<a class="navbar-brand" href="#top"> SE Gólyatábor 2018</a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
 		 <span class="navbar-toggler-icon"></span>
 	</button>
 	<div  class="collapse navbar-collapse" id="navbarResponsive">
 		<ul class="navbar-nav ml-auto">
-			<li class="nav-item"> <a class="nav-link" href="#">Kezdőoldal</a> </li>
-			<li class="nav-item"> <a class="nav-link" href="#kedves-golya">Rólunk</a> </li>
+			<!-- <li class="nav-item"> <a class="nav-link" href="#top">Kezdőoldal</a> </li> -->
+			<li class="nav-item"> <a class="nav-link" href="#kedves-golya">Beköszöntő</a> </li>
 			<li class="nav-item"> <a class="nav-link" href="#jelentkezes">Jelentkezés</a> </li>
 			<li class="nav-item"> <a class="nav-link" href="#team">Betűk</a> </li>
-			<li class="nav-item"> <a class="nav-link" href="#connect">Kapcsolat</a> </li>
+			<li class="nav-item"> <a class="nav-link" href="#connect">Hasznos információk</a> </li>
+			<li class="nav-item"> <a class="nav-link" href="#sponsors">Támogatóink</a> </li>
 		</ul>
 	</div>
 </div>
 </nav> 
 
-
 <!--- Image Slider -->
-
+<a class="anchor" id="top"></a>
 <div id="slides" class="carousel slide" data-ride="carousel">
 	<ul class="carousel-indicators ">
 		<!---<li data-target="#slides" data-slide-to="0" class="active"></li>-->
@@ -64,10 +68,10 @@ ga('send', 'pageview');
 			<div class="carousel-caption">
 				<h1 class="display-2">Semmelweis Egyetem Gólyatábor</h1>
 				<h3>2018. augusztus 23-28.</h3>
-				<div class="bekoszono-gomb">
+				<!-- <div class="bekoszono-gomb">
 				<a href="#jelentkezes" class="btn btn-primary btn-lg"> Jelentkezés </a>
-				<a href="#kedves-golya" class="btn btn-outline-light btn-lg">További információ</a>
-				</div>
+				<a href="#kedves-golya" class="btn btn-outline-light btn-lg">... és ahol minden kérdésedre választ találsz!</a>
+				</div> -->
 			</div>
 		</div>
 		<!---<div class="carousel-item">
@@ -80,9 +84,9 @@ ga('send', 'pageview');
 	</div>
 </div>
 
-
 <!--- Welcome Section -->
-<div class="container-fluid padding">
+<a class="anchor" id="kedves-golya"></a>
+<div class="container-fluid padding" >
 	<div class="row welcome text-center">
 		<div class="col-12">
 			<h2 class="display-4">Kedves Gólya!</h2>
@@ -93,7 +97,7 @@ ga('send', 'pageview');
 
 
 <div class="container-fluid padding">-->
-	<div class="row welcome" id="kedves-golya">
+	<div class="row welcome">
 		<div class="col-12">
 			<p class="lead">Először is engedd meg, hogy gratuláljunk a sikeres felvételidhez, és sok szeretettel meghívjunk a 2018-as Semmelweis Gólyatáborba!</p>
 			<p class="lead">A táborba, ahol hat napon keresztül felszabadultan lazíthatsz a pörgős egyetemi élet indulása előtt, ahol találkozhatsz jövendőbeli csoporttársaiddal, ahol életre szóló barátságokat köthetsz és ahol minden kérdésedre választ kapsz. </p>
@@ -109,7 +113,7 @@ ga('send', 'pageview');
 <div class="container-fluid padding">
 	<div class="row text-center padding">
 		<div class="col-xs-12 col-sm-6 col-md-3">
-			<a href="https://www.facebook.com/instruktorok/" target="_blank"><i class="fab fa-facebook"></i></a>
+			<a href="https://www.facebook.com/semmelweisgt/" target="_blank"><i class="fab fa-facebook"></i></a>
 			<h3>facebook</h3>
 			<p>Friss hírekért kövess minket a facebookon!</p>
 		</div>
@@ -129,13 +133,13 @@ ga('send', 'pageview');
 			<p>Megadott adataidat bizalmasan kezeljük.</p>
 		</div>
 	</div>
-	<hr class="my-4">
 </div>
-
+<hr class="my-4">
 <!--- Two Column Section -->
-<div class="container-fluid padding" id="jelentkezes">
-	<div class="row padding">
-		<div class="col-lg-6">
+<a class="anchor" id="jelentkezes"></a>
+<div class="container-fluid padding">
+	<div class="row text-center padding">
+		<div class="col-lg-6 my-auto">
 			<h2>Jelentkezés</h2>
 			<p>Most lesz szükséged a levélben kapott kódra, ezzel tudsz regisztrálni a táborra. <br> Ha elkészültél, már csak egy dolgod van hátra — megírni instruktoraidnak a levelet!</p>
 			<br>
@@ -149,7 +153,8 @@ ga('send', 'pageview');
 
 <hr>
 <!--- Meet the team -->
-<div class="container-fluid padding" id="team">
+<a class="anchor" id="team"></a>
+<div class="container-fluid padding">
 	<div class="row welcome text-center">
 		<div class="col-12">
 			<h1 class="display-4">Bemutatkoznak a betűk!</h1>
@@ -332,12 +337,53 @@ ga('send', 'pageview');
     </div>
   </div>
 </div>
+<!-- Modal 5 -->
+<div class="modal fade" id="fontossurgos" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Tábor alatt hívható számok</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body">
+
+
+<table class="table table-hover">
+  <tbody>
+    <tr>
+      <td>Kiss Boldizsár</td>
+      <td>Instruktor Öntevékeny Csoport elnöke<br/>Instruktor Öntevékeny Csoport Egyesület elnöke<br/>Instruktor Öntevékeny Csoport Etikai Bizottságának tagja</td>
+      <td>(30) 286 7060</td>
+      <td>kiss.boldizsar@iocs.hu</td>
+    </tr>
+    <tr>
+      <td>dr. Szécsényi-Nagy Balázs</td>
+      <td>Instruktor Öntevékeny Csoport Felügyelőbizottságának elnöke<br/>Instruktor Öntevékeny Csoport Etikai Bizottságának tagja</td>
+      <td>(30) 438 8999</td>
+      <td>szecsenyi@dc.sote.hu</td>
+    </tr>
+    <tr>
+      <td>Parrag Hanga</td>
+      <td>Instruktor Öntevékeny Csoport Felügyelőbizottságának tagja<br/>Instruktor Öntevékeny Csoport Etikai Bizottságának tagja</td>
+      <td>(70) 341 5365</td>
+      <td>hangaparrag@gmail.com</td>
+    </tr>
+  </tbody>
+</table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Bezár</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!--- Meet the team -->
-<div class="container-fluid padding" id="connect">
+<a class="anchor" id="connect"></a>
+<div class="container-fluid padding">
 	<div class="row welcome text-center">
 		<div class="col-12">
-			<h1 class="display-4">Kapcsolat</h1>
+			<h1 class="display-4">Hasznos információk</h1>
 		</div>
 		<hr>
 	</div>
@@ -370,7 +416,7 @@ ga('send', 'pageview');
 		</div>
 		<div class="col-md-4">
 			<div class="card">
-<h5 class="card-header">Egyetemi ügyek</h5>
+<h5 class="card-header">&nbsp;</h5>
 				<!---<img class="card-img-top" src="img/team3.png">-->
 				<div class="card-body">
 					<h4 class="card-title">Karifőnökök</h4>
@@ -379,9 +425,22 @@ ga('send', 'pageview');
 					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#karifonok">Karifőnökök elérhetőségei
 					</button>
 							</div>
+					<h4 class="card-title">Tábor alatt hívható számok</h4>
+					<p class="card-text">A gólyatábor időtartama alatt bármikor hívható telefonszámok</p>
+								<div class="col-xs-1 col-md-1">
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#fontossurgos">Tábor alatt hívható számok
+					</button>
+							</div>
+					<h4 class="card-title">A tanév rendje</h4>
+					<p class="card-text">Fontos időpontok: tanévnyitó, beiratkozás,... </p>
 					<div class="col-xs-1 col-md-1">
 					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#tanev">A tanév rendje
 					</button> 
+							</div>
+					<div class="col-xs-1 col-md-1">
+					<a href="files/golyahir_2018.pdf" target="_blank">
+					<button type="submit" class="btn btn-primary" >Gólyahír kiadvány letöltése
+					</button></a>
 							</div>
 					<!---<p>  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
     Tanév rendje
@@ -391,7 +450,26 @@ ga('send', 'pageview');
 		</div>
 	</div>
 </div>
-
+	<hr class="my-4">
+<a class="anchor" id="sponsors"></a>
+<div class="container-fluid padding">
+	<div class="row welcome text-center">
+		<div class="col-12">
+			<h1 class="display-4">Támogatóink</h1>
+		</div>
+		<hr>
+	</div>
+</div>
+<div class="container-fluid padding">
+	<div class="row padding text-center">
+				<div class="col"><img src="img/kalinka-logo.png" style="width: 200px"></div>
+				<div class="col"><img src="img/soproni-logo.png" style="width: 200px"></div>
+				<div class="col"><img src="img/futyulos-logo.png" style="width: 200px"></div>
+				<div class="col"><img src="img/zwack-izabella-logo.jpg" style="width: 200px"></div>
+				<div class="col"><img src="img/redbull-logo.png" style="width: 200px"></div>
+			</div>
+		</div>
+<!--
 <div class="collapse" id="collapseExample">
   <div class="card card-body">
 
@@ -469,14 +547,13 @@ ga('send', 'pageview');
 
   </div>
 </div>
-
-
+-->
 <!--- Footer -->
 <footer>
 	<div class="container-fluid padding">
 		<div class="row text-center">
 			<div class="col-md-4">
-				<img src="img/custom2/semmelweis-logo.png" width="50px">
+				<a href="http://semmelweis.hu/" target="_blank"><img src="img/custom2/semmelweis-logo.png" width="50px"></a>
 				<hr class="light">
 				<p>Semmelweis Egyetem</p> 
 				<p>1085 Budapest, Üllői út 26.</p> 
@@ -485,9 +562,9 @@ ga('send', 'pageview');
 
 			</div>
 			<div class="col-md-4">
-				<img src="img/custom2/iocs-logo-white.png" width="50px">
+				<a href="http://iocs.hu" target="_blank"><img src="img/custom2/iocs-logo-white.png" width="50px"></a>
 				<hr class="light">
-				<p>Instruktor Öntevékeny Csoport Egyesület</p> 
+				<p>Instruktor Öntevékeny Csoport</p> 
 				<p>1089 Budapest, Nagyvárad tér 4.</p> 
 			</div>
 
@@ -586,7 +663,6 @@ $(document).ready(function() {
 });
 
     </script>
-
 
 
 </body>
