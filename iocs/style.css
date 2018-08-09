@@ -25,6 +25,12 @@ html, body {
 }
 
 
+.btn-block {
+    padding: 18px; 
+    /* define values in pixels / Percentage or em. whatever suits 
+       your requirements */
+}
+
 .navbar {
   padding: .8rem;
 }
