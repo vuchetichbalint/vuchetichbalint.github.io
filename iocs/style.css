@@ -271,12 +271,6 @@ figure {
     padding: 1rem;
 }
 
-#classModal {}
-
-.modal-body {
-  overflow-x: auto;
-}
-
 
 
 /*
@@ -296,6 +290,15 @@ Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
 
+
+
+#classModal {}
+
+.modal-body {
+  overflow-x: auto;
+}
+
+
 a.anchor {
 	display: block;
 	position: relative;
@@ -310,8 +313,6 @@ a.anchor {
 .scroll-wrapper {
   -webkit-overflow-scrolling: touch;
     overflow-y: scroll;
-
-  /* important:  dimensions or positioning here! */
 }
 
 .scroll-wrapper iframe {
