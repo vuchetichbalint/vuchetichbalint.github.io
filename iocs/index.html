@@ -195,9 +195,7 @@
                 <button type="button" class="btn btn-outline-dark btn-block betu" data-toggle="modal" data-target="#betu-e">E</button>
             </div>
             <div class="col-xs-4 col-sm-3 col-md-2 col-lg-2 col-xl-1">
-                <a href="betuk/f.html" target="_blank">
-                    <button type="button" class="btn btn-outline-dark btn-block betu">F</button>
-                </a>
+                <button type="button" class="btn btn-outline-dark btn-block betu" data-toggle="modal" data-target="#betu-f">F</button>
             </div>
             <div class="col-xs-4 col-sm-3 col-md-2 col-lg-2 col-xl-1">
                 <button type="button" class="btn btn-outline-dark btn-block betu" data-toggle="modal" data-target="#betu-g">G</button>
@@ -329,6 +327,31 @@
                     </div>
                 </div>
 
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Bezár</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- betű -->
+    <div class="modal fade clickable scroll-wrapper" id="betu-f" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Bemutatkozik az F betű!</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <!--- <img src="betuk/m.jpeg" width="100%" height="100%"> --->
+                    <img src="betuk/f.jpg" class="img-fluid rounded" alt="Ez itt az F betű!">
+                    <hr>
+                    <p>Kedves Gólya!</p>
+                    <p>Gratulálunk felvételidhez és üdvözlünk a Fekete sereg zsoldosai közt! Nagyon várjuk, hogy 23-án csatlakozz hozzánk, és az azt követő 6 napban belekóstolj az F-esek életébe. Hidd el, jó lesz!</p>
+                    <p>Addig is aludj sokat. Lehet, erre pont nem jut majd idő a táborban 😉</p>
+                    <p>Várunk!</p>
+                    <p>Kamcsi<wbr>Kálmi<wbr>Laci<wbr>Marci<wbr>Peti<wbr>Rebi<wbr>Sári<wbr>Kata<wbr>Detti<wbr>Bende<wbr>Marcsi<wbr>Árchee<wbr>Bazsi<wbr>Dalma<wbr>Olivér<wbr>Kamilla<wbr>Nóri<wbr>WÁdi<wbr>Kriszti</p>
+                    <div style="width:100%;height:0;padding-bottom:75%;position:relative;"><iframe src="https://giphy.com/embed/vFKqnCdLPNOKc" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/cat-lol-vFKqnCdLPNOKc">via GIPHY</a></p>
+                </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Bezár</button>
                 </div>
@@ -926,7 +949,7 @@
                             </a>
                         </div>
                         <div class="col-xs-1 col-md-1">
-                            <a href="files/golyahir_2018.pdf" target="_blank">
+                            <a href="files/nane.pdf" target="_blank">
                                 <button type="submit" class="btn btn-primary">NANE kiadvány</button>
                             </a>
                         </div>
@@ -1233,24 +1256,23 @@
     });
     </script>
     <script>
+    < script >
+        $(document).ready(function() {
+            $('#betu-j').on('hidden.bs.modal', function() {
+                var $this = $(this).find('iframe'),
+                    tempSrc = $this.attr('src');
+                $this.attr('src', "");
+                $this.attr('src', tempSrc);
+            });
 
-    <script>
-    $(document).ready(function() {
-        $('#betu-j').on('hidden.bs.modal', function() {
-            var $this = $(this).find('iframe'),
-                tempSrc = $this.attr('src');
-            $this.attr('src', "");
-            $this.attr('src', tempSrc);
+            $('#html5Video').on('hidden.bs.modal', function() {
+                var html5Video = document.getElementById("htmlVideo");
+                if (html5Video != null) {
+                    html5Video.pause();
+                    html5Video.currentTime = 0;
+                }
+            });
         });
-
-        $('#html5Video').on('hidden.bs.modal', function() {
-            var html5Video = document.getElementById("htmlVideo");
-            if (html5Video != null) {
-                html5Video.pause();
-                html5Video.currentTime = 0;
-            }
-        });
-    });
     </script>
     <script>
     $(document).ready(function() {
